@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:text="这是一个封装的多个词的文本控件，根据每个词的长短和当前行是否能放置下而自动换行的一种文本控件。" />
+
+    <com.linghu.multiwordview.MultiWordsView
+        android:id="@+id/major"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:minHeight="30dp"
+        android:layout_below="@id/title"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="0dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        app:multiLineHeight="23dp"
+        app:multiTextColor="#000000"
+        app:multiTextsize="15sp"
+        app:multiVspace="10dp"
+        app:multiHspace="40dp" />
+
+</RelativeLayout>

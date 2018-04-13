@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- MultiKeyWordView -->
+    <declare-styleable name="MultiWordsView">
+        <attr name="multiHspace" format="dimension" />
+        <attr name="multiVspace" format="dimension" />
+        <attr name="multiLineHeight" format="dimension"/>
+        <attr name="multiTextsize" format="dimension"/>
+        <attr name="multiTextColor" format="color" />
+    </declare-styleable>
+</resources>
