@@ -25,12 +25,13 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
+        //下面是模拟数据加载的时间过程，所以延迟处理了，大家可以按照自己的来写
         majorMTV.postDelayed(new Runnable() {
             @Override
             public void run() {
                 majorMTV.setContents(majorData);
             }
-        }, 3000);
+        }, 2000);
     }
 
 }
